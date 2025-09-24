@@ -70,9 +70,22 @@ fake-news-detection/
    ```
 
 3. Install dependencies:
+ this project uses
+
+ - numpy
+ - scikit-learn
+ - matplotlib
+
+ You can install these libraries using 'pip'
 
    ```bash
-   pip install -r requirements.txt
+   pip install .
+   ```
+
+You can also install them using 'poetry'
+
+```bash
+   poetry install .
    ```
 
 ---
