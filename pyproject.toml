@@ -1,0 +1,18 @@
+[project]
+name = "fake-news-detector"
+version = "0.1.0"
+description = "project to detect fake news"
+authors = [
+    {name = "Camila",email = "fanellocamila@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "scikit-learn (>=1.7.2,<2.0.0)",
+    "matplotlib (==3.7)",
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
